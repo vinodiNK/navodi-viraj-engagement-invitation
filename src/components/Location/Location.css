@@ -1,0 +1,85 @@
+.location-section {
+    min-height: 80vh;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+}
+
+.location-content {
+    width: 100%;
+    max-width: 700px;
+}
+
+.location-small {
+    font-size: 11px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.location-content h2 {
+    font-family: Georgia, serif;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.location-icon {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.location-content h3 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.event-time {
+    margin-top: 18px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.map-button {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 14px 32px;
+    border: 1px solid #222;
+    color: #222;
+    background: transparent;
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.map-button:hover {
+    background: #222;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .location-section {
+        min-height: 70vh;
+        padding: 80px 20px;
+    }
+    .location-content h2 {
+        font-size: 36px;
+    }
+    .location-content h3 {
+        font-size: 24px;
+    }
+    .address {
+        font-size: 13px;
+    }
+}

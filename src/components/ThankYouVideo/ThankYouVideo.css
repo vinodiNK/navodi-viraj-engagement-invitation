@@ -1,0 +1,14 @@
+.thank-you-section {
+    width: 100%;
+    padding: 60px 20px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-you-video {
+    width: min(100%, 420px);
+    height: auto;
+    display: block;
+}

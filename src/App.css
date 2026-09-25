@@ -1,0 +1,35 @@
+.app {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.invitation {
+    min-height: 100vh;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero p {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+}

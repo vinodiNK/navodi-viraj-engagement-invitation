@@ -1,0 +1,80 @@
+.intro-container {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.intro-video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.intro-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.intro-content {
+    text-align: center;
+    color: white;
+    animation: fadeIn 2s ease;
+}
+
+.intro-small-text {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.intro-content h1 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0 0 40px;
+}
+
+.skip-button {
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skip-button:hover {
+    background: white;
+    color: black;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .intro-content h1 {
+        font-size: 32px;
+    }
+    .intro-small-text {
+        font-size: 14px;
+    }
+}
