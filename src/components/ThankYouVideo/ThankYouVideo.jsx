@@ -6,7 +6,7 @@ function ThankYouVideo() {
 
       <video
         className="thank-you-video"
-        src="/videos/thank-you.mp4"
+        src={`${import.meta.env.BASE_URL}/videos/thank-you.mp4`} 
         autoPlay
         muted
         loop
@@ -35,7 +35,7 @@ function ThankYouVideo() {
           </div>
 
           <p className="thank-you-names">
-            Vishmi & Janith
+            Navodi & Shyara
           </p>
 
         </div>

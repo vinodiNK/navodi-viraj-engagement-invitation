@@ -4,7 +4,7 @@ function CoupleImage() {
   return (
     <section className="couple-image-section">
       <img
-        src="/images/couple.jpg"
+        src={`${import.meta.env.BASE_URL}/images/couple.jpg`}
         alt="Navodi and Shyara"
         className="couple-image"
       />
